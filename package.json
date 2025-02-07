@@ -1,7 +1,7 @@
 {
-  "name": "hexa-how-to",
+  "name": "hexa-arch-coffee-machine",
   "version": "1.0.0",
-  "description": "Examples to illustrate my articles on my newsletter Marevick's Bazaar (https://maeevick.substack.com)",
+  "description": "Coffe Machine Project, mini project used to learn Test Driven Development & hexagonal architecture : https://simcap.github.io/coffeemachine/",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,31 +9,17 @@
     "test": "node --experimental-strip-types --test src/*.test.ts",
     "spec": "node --experimental-strip-types --test src/*.spec.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Maeevick/hexa-how-to.git"
-  },
   "keywords": [
     "Hexagonal",
-    "Architecture",
-    "Newsletter",
-    "How-To"
+    "Architecture"
   ],
   "author": "Maeevick",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Maeevick/hexa-how-to/issues"
-  },
-  "homepage": "https://github.com/Maeevick/hexa-how-to#readme",
   "devDependencies": {
-    "@types/node": "^22.10.1",
-    "@types/pg": "^8.11.10",
-    "drizzle-kit": "^0.30.2"
+    "@types/node": "^22.10.1"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
-    "drizzle-orm": "^0.38.4",
-    "fastify": "^5.2.0",
-    "pg": "^8.13.1"
+    "fastify": "^5.2.1"
   }
 }
